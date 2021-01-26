@@ -1,0 +1,52 @@
+Send: M503
+Recv: echo:  G21    ; Units in mm (mm)
+Recv:
+Recv: echo:; Filament settings:
+Recv: echo:  M200 D1.75
+Recv: echo:; Steps per unit:
+Recv: echo: M92 X80.12 Y80.12 Z399.78 E1017.12
+Recv: echo:; Maximum feedrates (units/s):
+Recv: echo:  M203 X500.00 Y500.00 Z10.00 E50.00
+Recv: echo:; Maximum Acceleration (units/s2):
+Recv: echo:  M201 X500.00 Y500.00 Z100.00 E5000.00
+Recv: echo:; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+Recv: echo:  M204 P500.00 R1000.00 T500.00
+Recv: echo:; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
+Recv: echo:  M205 B20000.00 S0.00 T0.00 J0.01
+Recv: echo:; Home offset:
+Recv: echo:  M206 X0.00 Y0.00 Z0.00
+Recv: echo:; Mesh Bed Leveling:
+Recv: echo:  M420 S0 Z2.00
+Recv: echo:  G29 S3 I0 J0 Z0.14000
+Recv: echo:  G29 S3 I1 J0 Z0.00000
+Recv: echo:  G29 S3 I2 J0 Z-0.02000
+Recv: echo:  G29 S3 I3 J0 Z0.02000
+Recv: echo:  G29 S3 I4 J0 Z0.18000
+Recv: echo:  G29 S3 I0 J1 Z0.16000
+Recv: echo:  G29 S3 I1 J1 Z0.02000
+Recv: echo:  G29 S3 I2 J1 Z-0.04000
+Recv: echo:  G29 S3 I3 J1 Z-0.02000
+Recv: echo:  G29 S3 I4 J1 Z0.12000
+Recv: echo:  G29 S3 I0 J2 Z0.04000
+Recv: echo:  G29 S3 I1 J2 Z-0.04000
+Recv: echo:  G29 S3 I2 J2 Z-0.08000
+Recv: echo:  G29 S3 I3 J2 Z-0.06000
+Recv: echo:  G29 S3 I4 J2 Z0.06000
+Recv: echo:  G29 S3 I0 J3 Z0.16000
+Recv: echo:  G29 S3 I1 J3 Z0.04000
+Recv: echo:  G29 S3 I2 J3 Z-0.06000
+Recv: echo:  G29 S3 I3 J3 Z-0.06000
+Recv: echo:  G29 S3 I4 J3 Z0.04000
+Recv: echo:  G29 S3 I0 J4 Z0.10000
+Recv: echo:  G29 S3 I1 J4 Z-0.04000
+Recv: echo:  G29 S3 I2 J4 Z-0.02000
+Recv: echo:  G29 S3 I3 J4 Z0.00000
+Recv: echo:  G29 S3 I4 J4 Z0.00000
+Recv: echo:  G29 S4 Z0.00000
+Recv: echo:; PID settings:
+Recv: echo:  M301 P16.37 I1.20 D55.99
+Recv: echo:  M304 P41.91 I6.02 D194.53
+Recv: echo:; Z-Probe Offset (mm):
+Recv: echo:  M851 X10.00 Y10.00 Z0.00
+Recv: echo:; Linear Advance:
+Recv: echo:  M900 K0.00
