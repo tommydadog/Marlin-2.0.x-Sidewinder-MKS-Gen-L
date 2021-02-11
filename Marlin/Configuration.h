@@ -490,9 +490,9 @@
 
 
   // Sidewinder X-1
-  #define DEFAULT_Kp 12.19
-  #define DEFAULT_Ki 0.89
-  #define DEFAULT_Kd 41.93
+  #define DEFAULT_Kp 14.17
+  #define DEFAULT_Ki 0.99
+  #define DEFAULT_Kd 50.50
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -541,9 +541,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 26.37
-  #define DEFAULT_bedKi 1.77
-  #define DEFAULT_bedKd 262.06
+  #define DEFAULT_bedKp 28.74
+  #define DEFAULT_bedKi 4.23
+  #define DEFAULT_bedKd 130.25
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
